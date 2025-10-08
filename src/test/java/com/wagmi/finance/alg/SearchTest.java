@@ -1,4 +1,4 @@
-package test.java.com.wagmi.finance.alg;
+package com.wagmi.finance.alg;
 
 import static org.junit.jupiter.api.Assertions.*;
 

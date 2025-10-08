@@ -14,7 +14,11 @@ public final class StringUtils {
 
     public static String sanitizeDescription(String input) {
         // stub: trim, collapse spaces, remove invalid chars
-        throw new UnsupportedOperationException("Not implemented");
+        if (input == null )  throw new NullPointerException("input cannot be null");
+        if (input.length==0) return "";
+
+
+//        throw new UnsupportedOperationException("Not implemented");
     }
 
     public static boolean matchesDatePattern(String input) {
