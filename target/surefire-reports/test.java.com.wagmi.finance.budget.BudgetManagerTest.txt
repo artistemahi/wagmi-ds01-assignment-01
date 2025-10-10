@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.wagmi.finance.budget.BudgetManagerTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0.199 s <<< FAILURE! -- in test.java.com.wagmi.finance.budget.BudgetManagerTest
-test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_multiple_categories -- Time elapsed: 0.028 s <<< ERROR!
+Tests run: 14, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0.230 s <<< FAILURE! -- in test.java.com.wagmi.finance.budget.BudgetManagerTest
+test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_multiple_categories -- Time elapsed: 0.041 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_multiple_categories(BudgetManagerTest.java:82)
@@ -10,7 +10,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_with_exact_limit -- Time elapsed: 0.008 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_with_exact_limit -- Time elapsed: 0.022 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_with_exact_limit(BudgetManagerTest.java:105)
@@ -26,7 +26,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_income_updates_spending_correctly -- Time elapsed: 0.004 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_income_updates_spending_correctly -- Time elapsed: 0.006 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_income_updates_spending_correctly(BudgetManagerTest.java:74)
@@ -34,7 +34,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.isValidCategory_with_null_category -- Time elapsed: 0.007 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.isValidCategory_with_null_category -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.isValidCategory(BudgetManager.java:31)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isValidCategory_with_null_category(BudgetManagerTest.java:125)
@@ -50,7 +50,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_with_exact_threshold -- Time elapsed: 0.005 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_with_exact_threshold -- Time elapsed: 0.004 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_with_exact_threshold(BudgetManagerTest.java:97)
@@ -58,7 +58,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.setBudgetLimit_with_negative_value -- Time elapsed: 0.009 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.setBudgetLimit_with_negative_value -- Time elapsed: 0.016 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.setBudgetLimit_with_negative_value(BudgetManagerTest.java:67)
@@ -74,7 +74,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_zero_amount -- Time elapsed: 0.007 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_zero_amount -- Time elapsed: 0.011 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_zero_amount(BudgetManagerTest.java:113)
@@ -82,7 +82,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.category_validation_and_limits_work -- Time elapsed: 0.002 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.category_validation_and_limits_work -- Time elapsed: 0.018 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.category_validation_and_limits_work(BudgetManagerTest.java:27)
@@ -90,7 +90,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_returns_false_for_unknown_category -- Time elapsed: 0.003 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_returns_false_for_unknown_category -- Time elapsed: 0.005 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.isOverLimit(BudgetManager.java:61)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_returns_false_for_unknown_category(BudgetManagerTest.java:62)
@@ -98,7 +98,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_returns_false_for_unknown_category -- Time elapsed: 0.004 s <<< ERROR!
+test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_returns_false_for_unknown_category -- Time elapsed: 0.006 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.isApproachingLimit(BudgetManager.java:56)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_returns_false_for_unknown_category(BudgetManagerTest.java:57)

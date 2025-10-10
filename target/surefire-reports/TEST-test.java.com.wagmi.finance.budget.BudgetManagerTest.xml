@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.199" tests="14" errors="13" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.23" tests="14" errors="13" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\my pc\AppData\Local\Temp\surefire7683803569281073648\surefirebooter-20251008201516433_3.jar C:\Users\my pc\AppData\Local\Temp\surefire7683803569281073648 2025-10-08T20-15-16_112-jvmRun1 surefire-20251008201516433_1tmp surefire_0-20251008201516433_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\my pc\AppData\Local\Temp\surefire1075580269960166658\surefirebooter-20251010171523497_3.jar C:\Users\my pc\AppData\Local\Temp\surefire1075580269960166658 2025-10-10T17-15-23_165-jvmRun1 surefire-20251010171523497_1tmp surefire_0-20251010171523497_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\CODING\Javaproject\wagmi-ds01-assignment-01\target\test-classes;C:\CODING\Javaproject\wagmi-ds01-assignment-01\target\classes;C:\Users\my pc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\my pc\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\my pc\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\my pc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\my pc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\my pc\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\my pc\AppData\Local\Temp\surefire7683803569281073648\surefirebooter-20251008201516433_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\my pc\AppData\Local\Temp\surefire1075580269960166658\surefirebooter-20251010171523497_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="applyTransaction_with_multiple_categories" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.028">
+  <testcase name="applyTransaction_with_multiple_categories" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.041">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_multiple_categories(BudgetManagerTest.java:82)
@@ -67,7 +67,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="isOverLimit_with_exact_limit" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.008">
+  <testcase name="isOverLimit_with_exact_limit" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.022">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_with_exact_limit(BudgetManagerTest.java:105)
@@ -85,7 +85,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="applyTransaction_with_income_updates_spending_correctly" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.004">
+  <testcase name="applyTransaction_with_income_updates_spending_correctly" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.006">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_income_updates_spending_correctly(BudgetManagerTest.java:74)
@@ -94,7 +94,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="isValidCategory_with_null_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.007">
+  <testcase name="isValidCategory_with_null_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.003">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.isValidCategory(BudgetManager.java:31)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isValidCategory_with_null_category(BudgetManagerTest.java:125)
@@ -112,7 +112,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="isApproachingLimit_with_exact_threshold" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.005">
+  <testcase name="isApproachingLimit_with_exact_threshold" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.004">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_with_exact_threshold(BudgetManagerTest.java:97)
@@ -121,7 +121,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="setBudgetLimit_with_negative_value" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.009">
+  <testcase name="setBudgetLimit_with_negative_value" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.016">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.setBudgetLimit_with_negative_value(BudgetManagerTest.java:67)
@@ -139,7 +139,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="applyTransaction_with_zero_amount" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.007">
+  <testcase name="applyTransaction_with_zero_amount" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.011">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.applyTransaction_with_zero_amount(BudgetManagerTest.java:113)
@@ -148,7 +148,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="category_validation_and_limits_work" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.002">
+  <testcase name="category_validation_and_limits_work" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.018">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.addValidCategory(BudgetManager.java:26)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.category_validation_and_limits_work(BudgetManagerTest.java:27)
@@ -157,7 +157,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="isOverLimit_returns_false_for_unknown_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.003">
+  <testcase name="isOverLimit_returns_false_for_unknown_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.005">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.isOverLimit(BudgetManager.java:61)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isOverLimit_returns_false_for_unknown_category(BudgetManagerTest.java:62)
@@ -166,7 +166,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="isApproachingLimit_returns_false_for_unknown_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.004">
+  <testcase name="isApproachingLimit_returns_false_for_unknown_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.006">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.budget.BudgetManager.isApproachingLimit(BudgetManager.java:56)
 	at test.java.com.wagmi.finance.budget.BudgetManagerTest.isApproachingLimit_returns_false_for_unknown_category(BudgetManagerTest.java:57)
@@ -175,5 +175,5 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="addValidCategory_with_null_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.014"/>
+  <testcase name="addValidCategory_with_null_category" classname="test.java.com.wagmi.finance.budget.BudgetManagerTest" time="0.006"/>
 </testsuite>
