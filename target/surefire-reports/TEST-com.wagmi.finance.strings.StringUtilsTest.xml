@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.125" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.wagmi.finance.strings.StringUtilsTest" time="0.136" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,19 +58,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="reverse_inverts_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.007"/>
-  <testcase name="add_increases_size_and_toArray_contains_items_in_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003"/>
-  <testcase name="deleteById_removes_node_and_updates_size" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.036"/>
-  <testcase name="add_multiple_elements_maintains_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.008"/>
-  <testcase name="deleteById_with_null_id_returns_false" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002"/>
-  <testcase name="toArray_on_empty_returns_empty_array" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.008"/>
-  <testcase name="reverse_single_element_does_nothing" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002"/>
-  <testcase name="deleteById_from_head_of_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002"/>
-  <testcase name="findById_with_null_id_returns_null" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.005"/>
-  <testcase name="deleteById_from_tail_of_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002"/>
-  <testcase name="reverse_empty_list_does_nothing" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003"/>
-  <testcase name="deleteById_from_single_element_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.001"/>
-  <testcase name="add_single_element_works_correctly" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.004"/>
-  <testcase name="findById_returns_correct_transaction_or_null" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002"/>
-  <testcase name="reverse_twice_returns_to_original_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002"/>
+  <testcase name="matchesDatePattern_handles_null_input" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.005"/>
+  <testcase name="sanitizeDescription_handles_empty_string" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.004"/>
+  <testcase name="matchesDatePattern_handles_empty_string" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.002"/>
+  <testcase name="matchesDatePattern_validates_day_range" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.004"/>
+  <testcase name="sanitizeDescription_removes_special_characters" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.002"/>
+  <testcase name="sanitizeDescription_handles_multiple_spaces" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.004"/>
+  <testcase name="matchesDatePattern_handles_leap_year" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.002"/>
+  <testcase name="sanitizeDescription_handles_null_input" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.022"/>
+  <testcase name="sanitizeDescription_trims_and_collapses_spaces" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.004"/>
+  <testcase name="matchesDatePattern_handles_whitespace" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.002"/>
+  <testcase name="matchesDatePattern_rejects_invalid_formats" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.004"/>
+  <testcase name="matchesDatePattern_validates_month_range" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.003"/>
+  <testcase name="sanitizeDescription_handles_tabs_and_newlines" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.003"/>
+  <testcase name="matchesDatePattern_checks_basic_format" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.003"/>
+  <testcase name="matchesDatePattern_handles_year_boundaries" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.002"/>
+  <testcase name="matchesDatePattern_handles_month_day_combinations" classname="com.wagmi.finance.strings.StringUtilsTest" time="0.005"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.088" tests="14" errors="14" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.092" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\my pc\AppData\Local\Temp\surefire1075580269960166658\surefirebooter-20251010171523497_3.jar C:\Users\my pc\AppData\Local\Temp\surefire1075580269960166658 2025-10-10T17-15-23_165-jvmRun1 surefire-20251010171523497_1tmp surefire_0-20251010171523497_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\my pc\AppData\Local\Temp\surefire6482376503687352148\surefirebooter-20251010191224341_3.jar C:\Users\my pc\AppData\Local\Temp\surefire6482376503687352148 2025-10-10T19-12-24_030-jvmRun1 surefire-20251010191224341_1tmp surefire_0-20251010191224341_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\CODING\Javaproject\wagmi-ds01-assignment-01\target\test-classes;C:\CODING\Javaproject\wagmi-ds01-assignment-01\target\classes;C:\Users\my pc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\my pc\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\my pc\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\my pc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\my pc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\my pc\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\my pc\AppData\Local\Temp\surefire1075580269960166658\surefirebooter-20251010171523497_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\my pc\AppData\Local\Temp\surefire6482376503687352148\surefirebooter-20251010191224341_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -58,130 +58,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="categoryTotalRecursive_handles_null_category" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.005">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.categoryTotalRecursive(RecursionUtils.java:24)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_null_category(RecursionUtilsTest.java:81)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="generateBudgetReportRecursive_handles_empty_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.generateBudgetReportRecursive(RecursionUtils.java:29)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_handles_empty_array(RecursionUtilsTest.java:110)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="categoryTotalRecursive_handles_large_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.013">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.categoryTotalRecursive(RecursionUtils.java:24)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_large_array(RecursionUtilsTest.java:90)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="isValidDateRecursive_handles_whitespace" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.005">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.isValidDateRecursive(RecursionUtils.java:19)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_whitespace(RecursionUtilsTest.java:140)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="isValidDateRecursive_validates_yyyy_mm_dd" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.006">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.isValidDateRecursive(RecursionUtils.java:19)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_validates_yyyy_mm_dd(RecursionUtilsTest.java:16)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="generateBudgetReportRecursive_handles_large_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.004">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.generateBudgetReportRecursive(RecursionUtils.java:29)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_handles_large_array(RecursionUtilsTest.java:122)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="generateBudgetReportRecursive_includes_category_breakdown" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.01">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.generateBudgetReportRecursive(RecursionUtils.java:29)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_includes_category_breakdown(RecursionUtilsTest.java:134)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="categoryTotalRecursive_sums_matching_category" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.categoryTotalRecursive(RecursionUtils.java:24)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_sums_matching_category(RecursionUtilsTest.java:29)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="isValidDateRecursive_handles_boundary_values" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.isValidDateRecursive(RecursionUtils.java:19)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_boundary_values(RecursionUtilsTest.java:65)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="isValidDateRecursive_handles_invalid_formats" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.003">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.isValidDateRecursive(RecursionUtils.java:19)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_invalid_formats(RecursionUtilsTest.java:55)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="categoryTotalRecursive_handles_empty_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.categoryTotalRecursive(RecursionUtils.java:24)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_empty_array(RecursionUtilsTest.java:73)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="isValidDateRecursive_handles_edge_dates" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.isValidDateRecursive(RecursionUtils.java:19)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_edge_dates(RecursionUtilsTest.java:46)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="generateBudgetReportRecursive_returns_non_empty_string" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.004">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.generateBudgetReportRecursive(RecursionUtils.java:29)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_returns_non_empty_string(RecursionUtilsTest.java:39)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
-  <testcase name="categoryTotalRecursive_handles_mixed_categories" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.003">
-    <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
-	at main.java.com.wagmi.finance.recursion.RecursionUtils.categoryTotalRecursive(RecursionUtils.java:24)
-	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_mixed_categories(RecursionUtilsTest.java:102)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></error>
-  </testcase>
+  <testcase name="categoryTotalRecursive_handles_null_category" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.009"/>
+  <testcase name="generateBudgetReportRecursive_handles_empty_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.001"/>
+  <testcase name="categoryTotalRecursive_handles_large_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.011"/>
+  <testcase name="isValidDateRecursive_handles_whitespace" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.001"/>
+  <testcase name="isValidDateRecursive_validates_yyyy_mm_dd" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002"/>
+  <testcase name="generateBudgetReportRecursive_handles_large_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.007"/>
+  <testcase name="generateBudgetReportRecursive_includes_category_breakdown" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002"/>
+  <testcase name="categoryTotalRecursive_sums_matching_category" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.004"/>
+  <testcase name="isValidDateRecursive_handles_boundary_values" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002"/>
+  <testcase name="isValidDateRecursive_handles_invalid_formats" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.001"/>
+  <testcase name="categoryTotalRecursive_handles_empty_array" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.005"/>
+  <testcase name="isValidDateRecursive_handles_edge_dates" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.01"/>
+  <testcase name="generateBudgetReportRecursive_returns_non_empty_string" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.004"/>
+  <testcase name="categoryTotalRecursive_handles_mixed_categories" classname="test.java.com.wagmi.finance.recursion.RecursionUtilsTest" time="0.002"/>
 </testsuite>
